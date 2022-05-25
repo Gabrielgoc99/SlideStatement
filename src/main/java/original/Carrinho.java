@@ -1,9 +1,9 @@
 package original;
 
 public class Carrinho {
+    float conta;
 
     public float calcularValor(Produto produto){
-        float conta;
         float precoEncomenda = produto.getPreco();
         int qtdeEncomenda = produto.getQtdeProduto();
 
